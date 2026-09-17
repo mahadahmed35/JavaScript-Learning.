@@ -57,20 +57,43 @@
 //     }
 //     num = num + 1;
 // }
-while (num >=1) {
-    // check value of num
-    if(num === 1){
-        console.log(num +" bottle of juice on the wall!"+ num+" bottle of juice! Take one down, pass it around... "+ (num-1) +" bottles of juice on the wall!")
-    }else if(num ===2 ){
-                console.log(num+ " bottles of juice on the wall! "+ num +" bottles of juice! Take one down, pass it around... "+ (num-1) +" of juice on the wall!")
+// while (num >=1) {
+//     // check value of num
+//     if(num === 1){
+//         console.log(num +" bottle of juice on the wall!"+ num+" bottle of juice! Take one down, pass it around... "+ (num-1) +" bottles of juice on the wall!")
+//     }else if(num ===2 ){
+//                 console.log(num+ " bottles of juice on the wall! "+ num +" bottles of juice! Take one down, pass it around... "+ (num-1) +" of juice on the wall!")
 
+//     }else{
+//         console.log(num + " bottles of juice on the wall! "
+//                     + num + " bottles of juice! Take one down, pass it around... "
+//                     + (num-1) + " bottles of juice on the wall!");
+//     }
+//     num = num -1;
+//     // print lyrics using num
+//     // don't forget to check pluralization on the last line!
+//     // decrement num
+// }
+
+// Quiz Countdown, Liftoff.
+var sec = 60
+while(sec >=0){
+    if(sec === 50){
+        console.log("Orbiter transfers from ground to internal power")
+    }else if(sec === 31){
+                console.log("Ground launch sequencer is go for auto sequence start")
+
+    }else if(sec === 16){
+                console.log("Activate launch pad sound suppression system")
+
+    }else if(sec === 10){
+        console.log("Activate main engine hydrogen burnoff system")
+    }else if(sec === 6){
+        console.log("Main engine start")
+    }else if(sec === 0){
+        console.log("Solid rocket booster ignition and liftoff!")
     }else{
-        console.log(num + " bottles of juice on the wall! "
-                    + num + " bottles of juice! Take one down, pass it around... "
-                    + (num-1) + " bottles of juice on the wall!");
+        console.log("T-"+ sec +" seconds" )
     }
-    num = num -1;
-    // print lyrics using num
-    // don't forget to check pluralization on the last line!
-    // decrement num
+    sec = sec -1;
 }
