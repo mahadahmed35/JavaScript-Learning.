@@ -28,20 +28,49 @@
 // console.log(checkCustomer(customer))
 // }
 
-var x = 11;
+// var x = 11;
 
-while (x<20) {
-    // print Julia, James, or JuliaJames
-    if(x%3===0){
-        console.log("Julia")
-    }else if(x%5==0){
-        console.log("James");
-    }else if(x%3==0 && x%5==0){
-        console.log("JuliaJames");
-    }else{
-        console.log("Number")
-    }
-    // increment x
-    x = x + 1
-}
+// while (x<20) {
+//     // print Julia, James, or JuliaJames
+//     if(x%3===0){
+//         console.log("Julia")
+//     }else if(x%5==0){
+//         console.log("James");
+//     }else if(x%3==0 && x%5==0){
+//         console.log("JuliaJames");
+//     }else{
+//         console.log("Number")
+//     }
+//     // increment x
+//     x = x + 1
+// }
 // console.log(x)
+// 99 Bottles of Juice.
+// var num = 40;
+
+// while(num >= 10){
+//     if(num === 1){
+//         console.log(num +" bottle of juice on the wall! "+ num +" bottle of juice! Take one down, pass it around... "+ (num-1) +" of juice on the wall!")
+//     }else if(num >1 ){
+//                 console.log(num +" bottles of juice on the wall! "+ num +" bottles of juice! Take one down, pass it around... "+ (num-1) +" of juice on the wall!")
+
+//     }
+//     num = num + 1;
+// }
+while (num >=1) {
+    // check value of num
+    if(num === 1){
+        console.log(num +" bottle of juice on the wall!"+ num+" bottle of juice! Take one down, pass it around... "+ (num-1) +" bottles of juice on the wall!")
+    }else if(num ===2 ){
+                console.log(num+ " bottles of juice on the wall! "+ num +" bottles of juice! Take one down, pass it around... "+ (num-1) +" of juice on the wall!")
+
+    }else{
+        console.log(num + " bottles of juice on the wall! "
+                    + num + " bottles of juice! Take one down, pass it around... "
+                    + (num-1) + " bottles of juice on the wall!");
+    }
+    num = num -1;
+    // print lyrics using num
+    // don't forget to check pluralization on the last line!
+    // decrement num
+}
