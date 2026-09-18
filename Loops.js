@@ -107,3 +107,9 @@ for(let x = 0; x <3; x++){
         console.log(x+","+y)
     }
 }
+// Neseted Loops.
+for(let row=0; row<=25; row++){
+    for(let seat=0; seat<=99; seat++){
+        console.log(row +"-"+seat)
+    }
+}
