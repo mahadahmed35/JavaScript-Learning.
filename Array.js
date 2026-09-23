@@ -4,9 +4,19 @@
 
 // console.log(numbers)
 // Quidditch Cup Quiz.
-function hasEnoughPlayers(team){
- return team.length >= 7? true: false;
-}
+// function hasEnoughPlayers(team){
+//  return team.length >= 7? true: false;
+// }
 
-var team = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
-console.log(hasEnoughPlayers(team));
+// var team = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
+// console.log(hasEnoughPlayers(team));
+// // 
+// Array Methods.
+const numbers = [1, 2, 3];
+const doubles = [];
+
+const doubled = numbers.forEach(function(num) {
+    doubles.push(num * 2)
+
+});
+console.log(doubles);
