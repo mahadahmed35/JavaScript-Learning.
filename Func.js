@@ -38,3 +38,23 @@
 //     return `Hello: ${name}`
 // }
 // console.log(greet("Mo"))
+// Callback : Lets one function receive behavior from an other function.
+// function processOrder(order, callback) {
+//     console.log("Processing " + order);
+
+//     callback(order);
+// }
+
+// function sendConfirmation(order) {
+//     console.log("Confirmation sent for " + order);
+// }
+
+// processOrder("Laptop", sendConfirmation);
+// // Anonymous function: Avoids naming a function when it doesn't need a reusable name.
+// Named Function Expression: Gives a function expression an internal name, useful especially for debugging/recursion.
+// const greet = function sayHello(name) { return `Hello ${name}`};
+// console.log(greet("name"))
+// Incline function: Defines a function exactly where it's needed, avoiding an unnecessary variable.
+setTimeout(function(){
+console.log("Hello")
+}, 1000)
