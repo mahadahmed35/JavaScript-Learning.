@@ -55,6 +55,30 @@
 // const greet = function sayHello(name) { return `Hello ${name}`};
 // console.log(greet("name"))
 // Incline function: Defines a function exactly where it's needed, avoiding an unnecessary variable.
-setTimeout(function(){
-console.log("Hello")
-}, 1000)
+// setTimeout(function(){
+// console.log("Hello: " )
+// }, 1000)
+
+// Quiz Bank Accounts.
+var savingsAccount = {
+    balance: 1000,
+    interestRatePercent: 1,
+    deposit: function addMoney(amount) {
+        if (amount > 0) {
+            savingsAccount.balance += amount;
+        }
+    },
+    withdraw: function removeMoney(amount) {
+        var verifyBalance = savingsAccount.balance - amount;
+        if (amount > 0 && verifyBalance >= 0) {
+            savingsAccount.balance -= amount;
+        }
+    },
+    
+    printAccountSummary: function printAccountSummary(){
+        return "Welcome! \nYour balance is currently $"+ savingsAccount.balance +" and your interest rate is "+ savingsAccount.interestRatePercent +"%" 
+    }
+    // your code goes here
+};
+
+console.log(savingsAccount.printAccountSummary());
