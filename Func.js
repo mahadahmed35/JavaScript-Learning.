@@ -60,25 +60,26 @@
 // }, 1000)
 
 // Quiz Bank Accounts.
-var savingsAccount = {
-    balance: 1000,
-    interestRatePercent: 1,
-    deposit: function addMoney(amount) {
-        if (amount > 0) {
-            savingsAccount.balance += amount;
-        }
-    },
-    withdraw: function removeMoney(amount) {
-        var verifyBalance = savingsAccount.balance - amount;
-        if (amount > 0 && verifyBalance >= 0) {
-            savingsAccount.balance -= amount;
-        }
-    },
+// var savingsAccount = {
+//     balance: 1000,
+//     interestRatePercent: 1,
+//     deposit: function addMoney(amount) {
+//         if (amount > 0) {
+//             savingsAccount.balance += amount;
+//         }
+//     },
+//     withdraw: function removeMoney(amount) {
+//         var verifyBalance = savingsAccount.balance - amount;
+//         if (amount > 0 && verifyBalance >= 0) {
+//             savingsAccount.balance -= amount;
+//         }
+//     },
     
-    printAccountSummary: function printAccountSummary(){
-        return "Welcome! \nYour balance is currently $"+ savingsAccount.balance +" and your interest rate is "+ savingsAccount.interestRatePercent +"%" 
-    }
-    // your code goes here
-};
+//     printAccountSummary: function printAccountSummary(){
+//         return "Welcome! \n Your balance is currently $"+ savingsAccount.balance +" and your interest rate is "+ savingsAccount.interestRatePercent +"%" 
+//     }
+//     // your code goes here
+// };
 
-console.log(savingsAccount.printAccountSummary());
+// console.log(savingsAccount.printAccountSummary());
+// Quiz: Facebook Friends.
