@@ -29,6 +29,20 @@
 // console.log(found)
 
 // reduce. combine. Take many values and combine them into one. 
-const numbers = [1,2,3,4,5,6,7,7]
-const total = numbers.reduce((sum, price)=> sum + price, 0)
-console.log(total)
+// const numbers = [1,2,3,4,5,6,7,7]
+// const total = numbers.reduce((sum, price)=> sum + price, 0)
+// console.log(total)
+
+// forEach → DO
+// map     → TRANSFORM
+// filter  → KEEP SOME
+// find    → FIND ONE
+// some    → AT LEAST ONE?
+// every   → ALL?
+// reduce  → COMBINE
+// sort    → ORDER
+// push    → ADD LAST
+// pop     → REMOVE LAST
+// shift   → REMOVE FIRST
+// unshift → ADD FIRST
+// splice  → EDIT POSITION
