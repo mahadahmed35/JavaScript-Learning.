@@ -17,13 +17,18 @@
 // const adults = ages.filter(age => age >= 18)
 // console.log(adults)
 // find. Fin the first matching item. Find a user by ID.
-const users = [
-    { name: "Abdi", id: 1},
-    { name: "Abid", id: 2},
-    { name: "Abidd", id: 3},
-    { name: "Abida", id: 4},
-    { name: "Abide", id: 5},
-]
-const found = users.find( user => user.id === 2
-)
-console.log(found)
+// const users = [
+//     { name: "Abdi", id: 1},
+//     { name: "Abid", id: 2},
+//     { name: "Abidd", id: 3},
+//     { name: "Abida", id: 4},
+//     { name: "Abide", id: 5},
+// ]
+// const found = users.find( user => user.id === 2
+// )
+// console.log(found)
+
+// reduce. combine. Take many values and combine them into one. 
+const numbers = [1,2,3,4,5,6,7,7]
+const total = numbers.reduce((sum, price)=> sum + price, 0)
+console.log(total)
