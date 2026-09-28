@@ -48,14 +48,28 @@
 // console.log(facebookProfile.messages)
 
 // Quiz Donuts Revisited.
-var donuts = [
-    { type: "Jelly", cost: 1.22 },
-    { type: "Chocolate", cost: 2.45 },
-    { type: "Cider", cost: 1.59 },
-    { type: "Boston Cream", cost: 5.99 }
-];
+// var donuts = [
+//     { type: "Jelly", cost: 1.22 },
+//     { type: "Chocolate", cost: 2.45 },
+//     { type: "Cider", cost: 1.59 },
+//     { type: "Boston Cream", cost: 5.99 }
+// ];
 
-// your code goes here
-donuts.forEach(function (donut){
-    console.log(donut.type+" donuts cost $"+ donut.cost+" each" )
-})
+// // your code goes here
+// donuts.forEach(function (donut){
+//     console.log(donut.type+" donuts cost $"+ donut.cost+" each" )
+// })
+// Object literal notation.
+var person = {
+    name: "mo",
+    age: 21,
+    "home town": "Kigali",
+    "Marriage-status": "Single",
+    "1st child": "Boy"
+}
+
+person["age"]
+person["name"]
+
+person["home tow"]
+console.log(person["name"]);
